@@ -1,0 +1,4 @@
+==>after creating app
+==>use  the folowing command to instal router
+
+npm install react-router-dom

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // flat the Array
+        let arr1=[1,2,3,[2,3]];
+        console.log(arr1.flat());
+        let arr2=[1,2,3,[[2,3]]];
+        console.log(arr2.flat());
+        // only flat first layer
+        console.log(arr2.flat(2));
+
+        let arr3=[[1,1],[2,2],[3,3]];
+        let obj=Object.fromEntries(arr3);
+        console.log(obj);
+        
+        let arr4=[[1,1],21,[2,2],34,[3,3]];
+        let cpyarr=arr4.flatMap(value=>{
+            return value+2;
+        });
+        console.log(cpyarr);
+
+    </script>
+</body>
+</html>

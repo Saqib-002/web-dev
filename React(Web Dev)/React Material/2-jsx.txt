@@ -1,0 +1,29 @@
+JSX Fragement is use to return two tags of html 
+JSX Fragment is (<>
+		</>)
+JSX is just like HTML just a little bit change
+
+
+==>Self Closing tags are written as (In HTML: <input> and In react <input/>)
+
+HTML/CSS/Javascript			React
+className				class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

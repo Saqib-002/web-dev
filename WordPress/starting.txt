@@ -1,0 +1,12 @@
+==>copy wordpress into c/xammp/htdocs
+==>first start apache server and mysql in xammp
+==>now type "localhost/wordpress" in browser
+==>Now,before continuing in this tab first set database
+==>For database, type "localhost/phpmyadmin" in seperate tab
+==>now go back to previous tab and register your website
+==>default user name is rootand password is blank whle instaling xampp
+==>set title use name and password both admin for easy use
+
+==>link to go to admin page
+http://localhost/word2/wp-admin
+

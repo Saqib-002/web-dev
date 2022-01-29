@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: black;
+            border-radius: 40px;
+            height: 40px;
+        }
+        nav ul{    
+            overflow: auto;
+        }
+        nav li{
+
+            list-style: none;
+            float: left;
+            margin: 4px 4px;
+            margin-top: 10px;
+        }
+        nav li a{
+            text-decoration:none;
+            border-radius: 5px;
+            color: white;
+            padding: 3px 3px;
+        }
+        nav li a:hover{
+            color: blue;
+        }
+        .search{
+            border:none;
+            margin: 8px;
+            float: right;
+        }
+        nav input{
+            border-radius: 10px;
+            padding: 3px 10px;
+        }
+        nav input:hover{
+            border: none;
+            background-color:rgb(187, 187, 199);
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <nav>
+            <ul class="list">
+                <li ><a href="#">Join</a></li>
+                <li ><a href="#">Menu</a></li>
+                <li ><a href="#">Contact</a></li>
+                <li ><a href="#">Download</a></li>
+                <li ><a href="#">About us</a></li>
+                <div class="search">
+                    <input type="text" id="sear" placeholder="Search...">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

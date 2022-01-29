@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //array  clone
+
+        // let c=[1,2,3,4,5];
+        // let d=c;
+        // d.push(123);
+        // console.log(c);
+        // console.log(d);
+
+        //upper one shows the same reult for c and d
+        // for cloning we simply concatenate an empty array with c and store it in d
+        let c=[1,2,3,4,5];
+        let d=[].concat(c);
+        d.push(123);
+        console.log(c);
+        console.log(d);
+
+        // Objects
+        // Shallow Clone
+        let obj1={
+            name:'Saqib',
+            rollno:2,
+            c:{
+                deep:"deep object"
+            }
+        };
+        let obj2=obj1;
+        // vlaue of both obj will be change
+
+        // console.log(obj1);
+        // console.log(obj2);
+        // obj1.name='happy';
+        // console.log(obj1);
+        // console.log(obj2);
+        
+        // Cloning
+        console.log('clone without Object.asign obj1',obj1);
+        console.log('clone without Object.asign obj2',obj2);
+
+        // obj2=Object.assign(target,source);
+        // in this case obj2 is target which is empty
+        obj2=Object.assign({},obj1);
+
+        // second method to clone is
+        obj2={...obj1};
+        obj2.name='N/A';
+
+        
+        // Deep Clone (object inside object)
+        console.log('clone with Object.asign obj1',obj1);
+        console.log('clone with Object.asign obj2',obj2);
+        // obj2.c.deep='deepchange';
+        console.log('clone with obj1',obj1);
+        console.log('clone with obj2',obj2);
+        
+        // In this case we are turning the object into string then again changing it into object
+        console.log('clone without JSON obj1',obj1);
+        console.log('clone without JSON obj2',obj2);
+        obj2=JSON.parse(JSON.stringify(obj1));
+        
+        obj2.c.deep='deepchange';
+        console.log('clone with JSON obj1',obj1);
+        console.log('clone with JSON obj2',obj2);
+
+
+
+    </script>
+</body>
+</html>

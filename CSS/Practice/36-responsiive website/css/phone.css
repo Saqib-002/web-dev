@@ -1,0 +1,94 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+}
+#navbar .logo img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#navbar ul li a{
+    font-size: 0.7rem;
+    padding: 3px 5px;
+    margin: 5px;
+}
+/* Home */
+#home{
+    padding: 3rem;
+}
+#home p{
+    font-size: 13px;
+}
+/* Our Services */
+#services{
+    padding: 20px;
+    margin: 50px;
+}
+#services #serv{
+    flex-wrap: wrap;
+}
+#services #serv .service{
+    margin: 20px 10px;
+    padding: 30px;
+}
+#services #serv .service p{
+    font-size: 0.9rem;
+}
+#services #serv .service img{
+    width: 20vw;
+}
+
+/* Our Clients */
+#clients .client .clt{
+    margin: 20px;
+}
+#clients .client{
+    flex-wrap: wrap;
+}
+
+/* Contact Us */
+
+/* Utilities Classes */
+.h-primary{
+    font-size: 1.8rem;
+}
+.my-2{
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:500px){
+    #navbar ul li a{
+        font-size: 0.5rem;
+        padding: 2px 3px;
+        margin: 3px;
+    }   
+    /* Our Services */
+    #services{
+        margin: 20px;
+        padding: 10px;
+    }
+    .h-primary{
+        font-size: 1.5rem;
+    }
+    #services #serv .service{
+        margin: 15px 7px;
+        padding: 20px;
+    }
+    /* Our Clients */
+    #clients .client .clt{
+        margin: 10px;
+    }
+}
+@media screen and (max-width:300px){
+    .h-primary{
+        font-size: 1rem;
+    }
+    #services{
+        margin: 10px;
+        padding: 5px;
+    }
+    #services #serv .service{
+        margin: 10px 5px;
+        padding: 10px;
+    }
+}

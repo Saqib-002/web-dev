@@ -1,0 +1,10 @@
+==> This is use to install react gllobaly
+PS D:\LANGUAGES\Web Developement\React> npm install -g create-react-app
+
+
+==>this is use for create-react-app temporary(react app udhar lelo or wapis krdo use krky)
+PS D:\LANGUAGES\Web Developement\React> npx create-react-app my-app
+
+
+==>to use html tags in vs code (react) go to setting==>search emit include language==>write 
+javascript in keyjavascriptreact in value 

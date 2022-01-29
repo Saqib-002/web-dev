@@ -1,0 +1,13 @@
+Thunder Client
+ES7 React/Redux/GraphQL/React-Native snippets			v3.1.1
+Bracket Pair Colorizer						v1.0.61
+Auto Rename Tag							v0.1.8
+live server
+Prettier - Code formatter					v8.1.0
+
+
+
+
+
+
+

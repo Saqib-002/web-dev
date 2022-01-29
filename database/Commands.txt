@@ -1,0 +1,16 @@
+Command 				Description
+db					show current database
+use saqib				switch to "saqib" database(if not avaiable with this name it will made a new db)
+show dbs				show database
+show collections			shows colletions(columns in rdbms)
+db.text					make collection name "text"
+db.text.insert({})			insert in collection {}(empty object)
+
+
+
+Database=database
+tables=collections
+Rows=Documents
+
+
+

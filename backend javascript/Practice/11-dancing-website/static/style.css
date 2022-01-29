@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgb(199, 196, 196);
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+    list-style:none;
+    padding: 0px 15px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 8px;
+}
+
+#navbar ul li img{
+    width: 40px;
+    filter: drop-shadow(1px 1px 2px rgb(255, 255, 255)) invert(75%);
+}
+#navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+}
+#intro{
+    height: 300px;
+    background-color: wheat;
+    background: url("../static/bg.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    color: aliceblue;
+    font-size: 2rem;
+}
+.small{
+    font-size: 1.5rem;
+
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card designing */
+#mission h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 10px;
+}
+#mission .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#mission .cards .card{
+    border: 2px solid black ;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 5px 20px ;
+}
+#mission .cards .card h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#mission .cards .card .card-box {
+    display: flex;
+    align-items: center;
+}
+#mission .cards .card .card-box .card-img{
+    width: 150px;
+}
+.card .card-box .card-text{
+    margin: 5px;
+}
+#sponser{
+    background-color: rgb(179, 164, 164);
+    height: 300px;
+    padding: 10px;
+}
+#sponser h1{
+    margin: 10px 0px;
+    text-align: center;
+}
+#sponser .img{
+    display: flex;
+    margin: 20p;
+    justify-content: center;
+    align-items: center;
+}
+#sponser .img img{
+    width: 150px;
+    margin: 0px 30px;
+}

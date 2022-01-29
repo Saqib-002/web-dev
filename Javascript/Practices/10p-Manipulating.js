@@ -1,0 +1,13 @@
+console.log(window);
+let a;
+// a=window.alert("Hello!!");
+// alert("Hello!!");
+// a=prompt("This is dangerouse");
+// a=confirm("Are You sure??");
+a=innerHeight;
+a=innerWidth;
+//a=scrollY;
+// a=location.toString();
+// a=location;
+// a=history;
+console.log(a);

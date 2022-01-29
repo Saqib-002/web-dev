@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #navbar{
+            background-color: gray;
+        }
+        #navbar ul {
+            display: flex;
+        }
+        #navbar ul li{
+            list-style: none;
+        }
+        #navbar ul .menu-item a{
+            background-color: green;
+            margin: 0px 10px;
+            display: flex;
+            padding: 10px 0px;
+        }
+        
+        #navbar ul .menu-item a:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li class="menu-item"><a href="./index.html">HOME</a></li>
+                <li class="menu-item"><a href="./services.html">Services</a></li>
+                <li class="menu-item"><a href="./clients.html">Clients</a></li>
+                <li class="menu-item"><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>This is Contact Us page</h1>
+</body>
+</html>

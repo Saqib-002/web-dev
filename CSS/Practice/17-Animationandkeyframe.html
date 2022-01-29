@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        background-color: blue;
+        width:90vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        animation: sad 3s ease-in-out 0s infinite alternate;
+
+    }
+    @keyframes sad {
+        0%{
+            width: 200px;
+        }
+        25%{
+            height: 200px;
+        }
+        50%
+        {
+            width: 600px;
+        }
+        75%{
+
+            height: 600px;
+        }
+        100%{
+            width: 1000px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            this is dabba
+    
+        </div>
+    </div>
+</body>
+</html>

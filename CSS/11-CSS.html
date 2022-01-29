@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline,Internal,External</title>
+    
+    <!-- Internal CSS -->
+    <!-- Inline CSS is preferred than Internal CSS,if inline is commented this will execute -->
+    <style>
+        p{
+            color: brown;
+            /* important so not be over write */
+            background-color: wheat !important;
+        }
+        /* last one written is prefered */
+    </style>
+    <link rel="stylesheet" href="11-CS.css">
+</head>
+<body>
+    <h3>THIS is CSS</h3>
+    <!-- Inline CSS -->
+    <p style="color: blue; background-color: rgb(203, 212, 219);">Lorem, ipsum dolor.</p>
+    <p >Lorem, ipsum dolor.</p>
+    
+
+    
+</body>
+</html>

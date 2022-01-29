@@ -1,0 +1,39 @@
+extends base.pug
+
+block style
+    style
+        include ../static/style.css
+block scripts 
+    script(src="../static/index.js") 
+block content
+    div.container
+    
+        section#intro 
+            p Welcome to Spartan's Dance Academy
+            p.small EAT SLEEP DANCE REPEAT
+
+        section#mission
+            h1.ourmission Our Mission
+            div.cards
+                div.card
+                    h3.card-head Break Dance
+                    div.card-box
+                        img.card-img(src="../static/card1.png", alt="")
+                        p.card-text This is followed by Micheal Jackson
+                div.card
+                    h3.card-head Street Dance
+                    div.card-box
+                        img.card-img(src="../static/card2.png", alt="")
+                        p.card-text This is followed by Street Fighter 3D
+                div.card
+                    h3.card-head Dancer Silhouette
+                    div.card-box
+                        img.card-img(src="../static/card3.png", alt="")
+                        p.card-text This is followed by ABCD-2
+        section#sponser
+            h1 Our Sponsers
+            div.img
+                img(src="../static/apple.png", alt="")
+                img(src="../static/hp.png", alt="")
+                img(src="../static/microsoft.png", alt="")
+                img(src="../static/skype.png", alt="")

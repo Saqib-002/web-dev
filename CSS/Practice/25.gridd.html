@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar'
+            'section section aside'
+            'footer footer footer';
+        }
+        .box{
+            background-color: red;
+            border:2px solid black;
+            padding: 10px;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #setion{
+            grid-area: setion;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="box">
+            home  Contact us more join
+        </div>
+        <div id="section" class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellendus incidunt repudiandae ab dolorum assumenda cum sapiente velit deserunt fuga voluptas, officiis recusandae voluptatum commodi quaerat nobis molestiae dolor quas!
+        </div>
+        <div id="aside" class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laudantium eos omnis veniam repudiandae, incidunt deserunt similique alias ex, vitae explicabo dolorum ipsa! Nihil adipisci exercitationem distinctio quo nobis quas.
+        </div>
+        <footer class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vero modi laboriosam velit dolore ullam, facere vel animi. Dicta expedita reiciendis voluptatem aspernatur saepe possimus? Doloremque non repudiandae dolor sapiente.
+        </footer>
+    </div>
+</body>
+</html>

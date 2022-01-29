@@ -1,0 +1,15 @@
+{
+  "name": "saqib",
+  "version": "1.0.0",
+  "description": "this is first",
+  "main": "6-npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saqib",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "slugify": "^1.6.0"
+  }
+}

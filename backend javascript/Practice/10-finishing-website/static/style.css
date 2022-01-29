@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: blanchedalmond;
+    
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style:none;
+    padding: 15px 10px;
+}
+.menu li a{
+    padding: 20px;
+    text-decoration: none;
+    color: tomato ;
+    font-weight: 600;
+}
+.menu li a:hover{
+    text-shadow: 3px 3px 8px rgb(211, 152, 152);
+}
+.container{
+    margin-top: 10px;
+}
+body::before{
+    content: "";
+    background: url("https://source.unsplash.com/1600x900/?gym,fitness") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 800px;
+    width: 100%;
+}
+.heading,legend{
+    font-size: 2rem;
+    text-shadow: 3px 3px 8px white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+.form{
+    text-shadow: 3px 3px 8px white;
+    width: 60vw;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.form textarea{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.btn{
+    width: 70px;
+    margin: auto;
+    /* outline: none; */
+    border: 1px solid rgb(39, 221, 130);
+    color: rgb(39, 221, 130);
+    border-radius: 23px;
+    background-color: transparent;
+    text-shadow: 2px 2px 5px white;
+    box-shadow: 1px 1px 10px 1px white;
+    padding: 3px 2px;
+    
+}
+.btn:hover{
+    background-color: rgb(39, 221, 130);
+    cursor: pointer;
+    color: white;
+    border: none;
+    text-shadow: none;
+    
+    
+}

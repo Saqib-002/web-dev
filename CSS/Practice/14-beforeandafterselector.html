@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+        /* Unsplash source and google fonts websites */
+        
+        body{
+            background-color: black;
+            color: white;
+            
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x700') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            height:100vh;
+            width: 100vw;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+        }
+        ul{
+            display: flex;
+            font-size: 20px;
+        }
+        li{
+            list-style: none;
+            padding: 5px 15px;
+            margin: 5px 10px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            height: 344px;
+            align-items: center;
+            margin: 20px 100px;
+            padding: 10px 150px;
+            justify-content: center;
+        }
+        /* section::before{
+            content:"This is content";
+        } */
+        /* section::after{
+            content:"This is content";
+        } */
+        h1{
+            font-size: 4rem;
+            font-family: 'Fuggles', cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="">Menu</a> </li>
+                <li> <a href="">Join</a> </li>
+                <li> <a href="">Contact Us</a> </li>
+                <li> <a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident error ratione doloribus sed dolorum,
+            ipsum cumque reprehenderit dignissimos architecto veniam optio sint aliquam consectetur corrupti vero
+            similique velit. Possimus eum consequatur delectus quia magni.</p>
+    </section>
+    <hr>
+</body>
+</html>

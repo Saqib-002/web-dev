@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        p{
+            position: absolute;
+            top: 250px;
+            left: 600px;
+            border: 2px solid black;
+            animation: bounce 1s ease-in-out infinite alternate;
+        }
+        @keyframes bounce {
+            0%{
+              top: 240px;  
+            }
+            20%{
+              top: 250px;  
+            }
+            40%{
+              top: 244px;  
+            }
+            60%{
+              top: 250px;  
+            }
+            80%{
+              top: 248px;  
+            }
+            100%{
+              top: 250px;  
+            }
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        
+        <p>Animation</p>
+    </div>
+
+</body>
+</html>

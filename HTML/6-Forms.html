@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+</head>
+
+<body>
+    <h3>Student fill form</h3>
+    <!-- action="backend.php" where the form will be submit -->
+    <form action="backend.php">
+        <!-- type use that what user can enter(text,number or box) -->
+        <p>Enter Student Details</p>
+        <!-- Etras -->
+        <label for="name">Name: </label>
+        <!-- lable is use if you want to click on name it select the box -->
+        <!-- text in for must be same as id -->
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Roll No.: <input type="text" name="myRoll">
+        </div>
+        <br>
+        <div>
+            <!-- you can use 3e4 as 3*10^4 -->
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            DOB: <input type="Date" name="myDOB">
+        </div>
+        <br>
+        <div>
+            Date: <input type="datetime" name="myDate">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            <!-- to make it check by default use checked -->
+            Are you Eligible: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            <!-- name must be same for selecting single box -->
+            Gender: Male<input type="radio" name="myGender">
+            Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+        </div>
+        <div>
+            <!-- textarea to get inout from user in paragraph -->
+            Write about yourself:
+        </div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+            <!-- id must be same as for -->
+            <!-- select for selection menu and option for giving option -->
+            <label for="Car">Car: </label>
+            <select name="myCar" id="Car">
+            <option value="Swif">Swift</option>
+            <option value="Corola">Corola</option>
+            <!-- for selecting bydefault use selected -->
+            <option value="Xli"selected>XLI</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <!-- value use for putting text in button-->
+            <input type="submit" value="submit now">
+            <input type="reset" value="Reset Now">
+        </div>
+        
+    </form>
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+doctype html
+html
+    head  
+        style 
+            include ../static/style.css
+    body 
+    nav#navbar
+        ul#navigate
+            li #[img(src="../static/logo.png", alt="") ]
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact Us]
+
+    div.container
+    
+        section#intro 
+            p Welcome to Spartan's Dance Academy
+            p.small EAT SLEEP DANCE REPEAT
+
+        section#mission
+            h1.ourmission Our Mission
+            div.cards
+                div.card
+                    h3.card-head Break Dance
+                    div.card-box
+                        img.card-img(src="../static/card1.png", alt="")
+                        p.card-text This is followed by Micheal Jackson
+                div.card
+                    h3.card-head Street Dance
+                    div.card-box
+                        img.card-img(src="../static/card2.png", alt="")
+                        p.card-text This is followed by Street Fighter 3D
+                div.card
+                    h3.card-head Dancer Silhouette
+                    div.card-box
+                        img.card-img(src="../static/card3.png", alt="")
+                        p.card-text This is followed by ABCD-2
+        section#sponser
+            h1 Our Sponsers
+            div.img
+                img(src="../static/apple.png", alt="")
+                img(src="../static/hp.png", alt="")
+                img(src="../static/microsoft.png", alt="")
+                img(src="../static/skype.png", alt="")
+    footer#footer
+        | Copyright &copy , all right reserved
+
+    script
+        include ../static/index.js
